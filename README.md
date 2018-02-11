@@ -9,14 +9,104 @@ This doc describes the setup tasks for my custom [RetroPie 4.3](https://retropie
 ## Prerequisites
 This version is prebuilt for the following hardware spec:
 (You can save extra costs by using cheaper case and cable base controller).
-|Hardware|Amazon|Price|
+|Hardware|Shop|Price|
 |---|---|---|
 |Raspberry Pi 3 Model B|[Amazon](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1518366019&sr=8-3&keywords=raspberry%20pi%203)|EUR 33,99|
 |Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://www.amazon.de/Stecker-Netzteil-Raspberry-ausreichende-Leistungsreserve/dp/B01E75SB2C/ref=pd_bxgy_147_img_2?_encoding=UTF8&pd_rd_i=B01E75SB2C&pd_rd_r=79F2ET2PEBA0YWAQ9PHD&pd_rd_w=nDQoE&pd_rd_wg=sRizz&psc=1&refRID=79F2ET2PEBA0YWAQ9PHD)|EUR 9,35|
-|Samsung EVO Plus Micro SDXC 64GB|[Amazon](https://www.amazon.de/Samsung-Micro-100MB-Speicherkarte-Adapter/dp/B06XFZV9JY/ref=sr_1_1?ie=UTF8&qid=1518366466&sr=8-1&keywords=samsung%2064%20evo)|EUR 22,49|
+|Samsung EVO Plus Micro SDXC 64GB (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://www.amazon.de/Samsung-Micro-100MB-Speicherkarte-Adapter/dp/B06XFZV9JY/ref=sr_1_1?ie=UTF8&qid=1518366466&sr=8-1&keywords=samsung%2064%20evo)|EUR 22,49|
 |Retroflag NESPi CASE|[Amazon](https://www.amazon.de/Unionup-Retroflag-Raspberry-30x30x10mm-b%C3%BCrstenlose/dp/B076BJBLZD/ref=sr_1_1?s=computers&ie=UTF8&qid=1518366544&sr=1-1&keywords=nespi)|EUR 21,99|
 |8Bitdo N30 Pro Wireless Gamepad Controller|[Amazon](https://www.amazon.de/8Bitdo-Wireless-Gamepad-Controller-Android/dp/B013B61SCS/ref=sr_1_3?s=computers&ie=UTF8&qid=1518366736&sr=1-3&keywords=8bitdo)|EUR 34,40|
-|Total||EUR 122,22|
+|HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.amazon.de/AmazonBasics-Hochgeschwindigkeits-HDMI-Kabel-Ethernet-4K-Videowiedergabe-1-8m-Schwarz/dp/B014I8SSD0/ref=sr_1_1?s=ce-de&ie=UTF8&qid=1518367593&sr=1-1&keywords=hdmi%20cable)|EUR 7,99|
+|**Total**||**EUR 130,21**
 
-## Install
+# Install
+## Using SSH
+**Note**: Starting with RetroPie 4.2, in order to keep the default image secure SSH is disabled by default. Press F4 to leave Emulation Station Menu to console. Re-enable SSH in raspi-config:
+```
+sudo raspi-config
+```
+Interfacing Options >> SSH >> Enable >> reboot your pi
+```
+sudo reboot
+```
+### Default Login:
+username: **pi**
+password: **raspberry**
 
+### Common Terminal Commands:
+**Reboot:**
+```
+sudo reboot
+```
+**Shutdown:**
+```
+sudo shutdown -h now
+```
+**Change Directory:**
+```
+cd /path/to/directory
+```
+**list Files in Current Directory:**
+```
+ls
+```
+**Retropie Setup Script:**
+```
+sudo /home/pi/RetroPie-Setup/retropie_setup.sh
+```
+## Controller
+Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
+
+ 1. Run retropie-setup script (see SSH)
+ 2. Choose the "Configuration / Tools" menu choice
+ 3. Choose the "bluetooth - Configure Bluetooth Devices" menu choice 
+ 4. Make sure the hack option is turned "off"
+ 5. Make sure your controller is powered on and searching for a connection. With the FC30 Pro, this is done by holding the power button (left-hand side of the base of the controller) on until the side blue lights illuminate.
+ 6. Choose the "Register and Connect to Bluetooth Device" 
+ 7. You will then see the "Searching" screen. If you have issues with the detection of the controller, you may find it helps to press some buttons on the controller when this screen is showing. 
+ 8. It may be the case that the first time the results are returned, the name of the controller doesn't show, or that the MAC address doesn't show at all. If that's the case, you can either select the device if you know the MAC or simply search again.
+ 9. Choose the "DisplayYesNo" optin to complete the registration process. 
+ 10.You must now setup the udev rule in order for Emulation Station to "see" the controller when you restart your Raspberry Pi.  
+
+```
+sudo reboot
+```
+Configure Controller, use SELECT as HOTKEY
+ ## Emulation Station
+ ### Scraper
+> Scraping is a way to get metadata and boxart for your games from the internet. The scrapers RetroPie uses pull primarily from thegamesdb.net
+ 
+ Scrapping Videos
+ 
+ - Update RetroPie-Setup script
+ - Manage Packages >>> Manage optional packages >>> scraper >>> Install from source
+ - Configuration options
+	 - Thumbnails only (Disabled)
+	 - Arcade Sources (ArcadeItalia)
+	 - Console Source (ScreenScraper)
+	 - ROM Names (theGamesDB)
+	 - Gamelist (Overwrite)
+	 - Use rom folder for gamelist & images (Enabled)
+	 - Download Videos (Enabled)
+	 - Download Marquees (Enabled)
+
+ - Emulation Station Menu
+	 - UI Settings
+		 - Gamelist View Style -> VIDEO
+	 - Other Settings
+		 - Use OMX Player (HW Accelerated) -> ON
+
+## Transferring Roms
+The following roms are used in the custom build
+|Emulator|Options|Games|
+|---|---|---|
+|atari2600||607|
+|atari7800|Europe Set|55|
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
