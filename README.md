@@ -98,15 +98,7 @@ Configure Controller, use SELECT as HOTKEY
 
 ## Transferring Roms
 The following roms are used in the custom build
-|Emulator|Options|Games|
-|---|---|---|
-|atari2600||607|
-|atari7800|Europe Set|55|
-||||
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+| Emulator | Options | Games |
+| --- | --- | ---: |
+| atari2600 || 607 |
+| atari7800 | Europe Set | 55 |
