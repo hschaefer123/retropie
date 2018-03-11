@@ -9,8 +9,9 @@ This doc describes the setup tasks for my custom [RetroPie 4.3](https://retropie
 ## Prerequisites
 This version is prebuilt for the following hardware spec:
 (You can save extra costs by using cheaper case and cable base controller).
-|Hardware|Shop|Price|
----|---|---
+
+Hardware|Shop|Price
+--------|---|----
 Raspberry Pi 3 Model B|[Amazon](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1518366019&sr=8-3&keywords=raspberry%20pi%203)|EUR 33,99
 Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://www.amazon.de/Stecker-Netzteil-Raspberry-ausreichende-Leistungsreserve/dp/B01E75SB2C/ref=pd_bxgy_147_img_2?_encoding=UTF8&pd_rd_i=B01E75SB2C&pd_rd_r=79F2ET2PEBA0YWAQ9PHD&pd_rd_w=nDQoE&pd_rd_wg=sRizz&psc=1&refRID=79F2ET2PEBA0YWAQ9PHD)|EUR 9,35
 Samsung EVO Plus Micro SDXC 64GB (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://www.amazon.de/Samsung-Micro-100MB-Speicherkarte-Adapter/dp/B06XFZV9JY/ref=sr_1_1?ie=UTF8&qid=1518366466&sr=8-1&keywords=samsung%2064%20evo)|EUR 22,49
