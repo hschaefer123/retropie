@@ -9,6 +9,7 @@ This doc describes the setup tasks for my custom [RetroPie 4.3](https://retropie
 ## Prerequisites
 This version is prebuilt for the following hardware spec:
 (You can save extra costs by using cheaper case and cable base controller).
+
 Hardware | Shop | Price
 -------- | :----: | -----:
 Raspberry Pi 3 Model B|[Amazon](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1518366019&sr=8-3&keywords=raspberry%20pi%203)|EUR 33,99
