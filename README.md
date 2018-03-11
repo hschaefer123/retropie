@@ -9,9 +9,8 @@ This doc describes the setup tasks for my custom [RetroPie 4.3](https://retropie
 ## Prerequisites
 This version is prebuilt for the following hardware spec:
 (You can save extra costs by using cheaper case and cable base controller).
-
-Hardware|Shop|Price
---------|---|----
+Hardware | Shop | Price
+-------- | :----: | -----:
 Raspberry Pi 3 Model B|[Amazon](https://www.amazon.de/Raspberry-Pi-Model-ARM-Cortex-A53-Bluetooth/dp/B01CD5VC92/ref=sr_1_3?ie=UTF8&qid=1518366019&sr=8-3&keywords=raspberry%20pi%203)|EUR 33,99
 Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://www.amazon.de/Stecker-Netzteil-Raspberry-ausreichende-Leistungsreserve/dp/B01E75SB2C/ref=pd_bxgy_147_img_2?_encoding=UTF8&pd_rd_i=B01E75SB2C&pd_rd_r=79F2ET2PEBA0YWAQ9PHD&pd_rd_w=nDQoE&pd_rd_wg=sRizz&psc=1&refRID=79F2ET2PEBA0YWAQ9PHD)|EUR 9,35
 Samsung EVO Plus Micro SDXC 64GB (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://www.amazon.de/Samsung-Micro-100MB-Speicherkarte-Adapter/dp/B06XFZV9JY/ref=sr_1_1?ie=UTF8&qid=1518366466&sr=8-1&keywords=samsung%2064%20evo)|EUR 22,49
@@ -99,7 +98,28 @@ Configure Controller, use SELECT as HOTKEY
 
 ## Transferring Roms
 The following roms are used in the custom build
-Emulator | Options | Games
---- | --- | ---:
-atari2600 || 607
-atari7800 | Europe Set | 55
+Folder|Emulator|Options|Games
+---|---|---|---:
+atari2600|Atari 2600||607
+atari7800|Atari 7800|Europe Set|55|
+atarilynx|Lynx||76|
+daphne|Daphne|Install optional package 'daphne'||
+fds|Family Computer Disk System||91|
+gamegear|Game Gear||250|
+gb|Game Boy||585|
+gbc|Game Boy Color||543|
+genesis|Genesis||
+intellivision|Intellivision|Install optional package 'jzintv'|141|
+mame-libreto|MAME 2003|Config Editor use Analog Stick|4691
+mastersystem|SEGA Master System||286
+megadrive|SEGA Mega Drive||816
+nds|Nintendo DS||
+neogeo|NEO GEO||141
+nes|Nintendo Entertainment System||906
+pcengine|PC Engine (TurboGrafx-16)||104
+sega32x|SEGA 32X||33
+sg-1000|SG-1000||68
+snes|Super Nintendo Entertainment System||821
+vectrex|Vectrex||25
+wonderswan|Wonderswan Color|Install optional package 'lr-beetle-wswan'|109
+wonderswancolor|WonderSwan|Install optional package 'lr-beetle-wswan'|91
