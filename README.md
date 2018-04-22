@@ -15,7 +15,7 @@ Hardware | Shop | Price
 Raspberry Pi 3 Model B+ oder Raspberry Pi 3 Model B|[Amazon](https://www.amazon.de/Raspberry-Pi-3-Modell-B/dp/B07BDR5PDW/ref=sr_1_5?s=computers&rps=1&ie=UTF8&qid=1524407924&sr=1-5&keywords=Raspberry+Pi+3+Modell+B%2B&refinements=p_76%3A419122031)|ab EUR 33,99
 Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://www.amazon.de/Stecker-Netzteil-Raspberry-ausreichende-Leistungsreserve/dp/B01E75SB2C/ref=pd_bxgy_147_img_2?_encoding=UTF8&pd_rd_i=B01E75SB2C&pd_rd_r=79F2ET2PEBA0YWAQ9PHD&pd_rd_w=nDQoE&pd_rd_wg=sRizz&psc=1&refRID=79F2ET2PEBA0YWAQ9PHD)|EUR 9,35
 Samsung EVO Plus Micro SDXC 64GB (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://www.amazon.de/Samsung-Micro-100MB-Speicherkarte-Adapter/dp/B06XFZV9JY/ref=sr_1_1?ie=UTF8&qid=1518366466&sr=8-1&keywords=samsung%2064%20evo)|EUR 22,49
-Retroflag NESPi CASE+|[Amazon](https://www.amazon.de/gp/product/B07CG4TR2P/ref=ox_sc_act_title_1?smid=A2Z5GDGNMQA8Q1&psc=1)|EUR 26,99
+Retroflag NESPi CASE+ (NESPi Case PLUS can have SAFE SHUTDOWN and SAFE RESET functions) |[Amazon](https://www.amazon.de/gp/product/B07CG4TR2P/ref=ox_sc_act_title_1?smid=A2Z5GDGNMQA8Q1&psc=1)|EUR 26,99
 8Bitdo N30 Pro Wireless Gamepad Controller|[Amazon](https://www.amazon.de/8Bitdo-Wireless-Gamepad-Controller-Android/dp/B013B61SCS/ref=sr_1_3?s=computers&ie=UTF8&qid=1518366736&sr=1-3&keywords=8bitdo)|EUR 34,40
 HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.amazon.de/AmazonBasics-Hochgeschwindigkeits-HDMI-Kabel-Ethernet-4K-Videowiedergabe-1-8m-Schwarz/dp/B014I8SSD0/ref=sr_1_1?s=ce-de&ie=UTF8&qid=1518367593&sr=1-1&keywords=hdmi%20cable)|EUR 7,99
 **Total**||**EUR 135,21**
