@@ -59,6 +59,14 @@ Install [Safe Shutdown and Safe Reset](https://github.com/RetroFlag/retroflag-pi
 ```
 wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/install.sh" | sudo bash
 ```
+## Bluetooth Downgrade
+Downgrade pi-bluetooth from 0.1.1 back to version 0.1.0
+```
+wget http://archive.raspberrypi.org/debian/pool/main/p/pi-bluetooth/pi-bluetooth_0.1.0_armhf.deb
+```
+```
+sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
+```
 ## Controller
 Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
 
