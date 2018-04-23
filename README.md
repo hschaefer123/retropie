@@ -8,7 +8,7 @@ This doc describes the setup tasks for my custom [RetroPie 4.4](https://retropie
 
 ## Prerequisites
 This version is prebuilt for the following hardware spec:
-(You can save extra costs by using cheaper case and cable base controller).
+(You can save extra costs by using cheaper case and cable based controller).
 
 Hardware | Shop | Price
 -------- | :----: | -----:
@@ -54,10 +54,9 @@ ls
 ```
 sudo /home/pi/RetroPie-Setup/retropie_setup.sh
 ```
-## NESPi CASE PLUS
-Install [Safe Shutdown and Safe Reset](https://github.com/RetroFlag/retroflag-picase) script for [retroflag](http://retroflag.com/) case: 
+**Start Emulation Station:**
 ```
-wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/install.sh" | sudo bash
+emulationstation
 ```
 ## Bluetooth Downgrade
 Downgrade pi-bluetooth from 0.1.1 back to version 0.1.0
@@ -85,6 +84,11 @@ Add and configure 8bitdo bluetooth controller as described [here](https://retrop
 sudo reboot
 ```
 Configure Controller, use SELECT as HOTKEY
+## NESPi CASE PLUS
+Install [Safe Shutdown and Safe Reset](https://github.com/RetroFlag/retroflag-picase) script for [retroflag](http://retroflag.com/) case: 
+```
+wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/install.sh" | sudo bash
+```
  ## Emulation Station
  ### Scraper
 > Scraping is a way to get metadata and boxart for your games from the internet. The scrapers RetroPie uses pull primarily from thegamesdb.net
