@@ -33,7 +33,6 @@ sudo reboot
 ### Default Login:
 username: **pi**
 password: **raspberry**
-
 ### Common Terminal Commands:
 **Reboot:**
 ```
@@ -54,6 +53,10 @@ ls
 **Retropie Setup Script:**
 ```
 sudo /home/pi/RetroPie-Setup/retropie_setup.sh
+```
+## Install NESPi CASE PLUS: Safe Shutdown and Safe Reset script
+```
+wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/install.sh" | sudo bash
 ```
 ## Controller
 Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
