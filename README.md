@@ -70,8 +70,8 @@ Add and configure 8bitdo bluetooth controller as described [here](https://retrop
  6. Choose the "Register and Connect to Bluetooth Device" 
  7. You will then see the "Searching" screen. If you have issues with the detection of the controller, you may find it helps to press some buttons on the controller when this screen is showing. 
  8. It may be the case that the first time the results are returned, the name of the controller doesn't show, or that the MAC address doesn't show at all. If that's the case, you can either select the device if you know the MAC or simply search again.
- 9. Choose the "DisplayYesNo" optin to complete the registration process. 
- 10.You must now setup the udev rule in order for Emulation Station to "see" the controller when you restart your Raspberry Pi.  
+ 9. Choose the "DisplayYesNo" optin to complete the registration process.
+ 10. You must now setup the udev rule in order for Emulation Station to "see" the controller when you restart your Raspberry Pi.
 
 ```
 sudo reboot
