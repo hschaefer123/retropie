@@ -55,7 +55,7 @@ ls
 sudo /home/pi/RetroPie-Setup/retropie_setup.sh
 ```
 ## NESPi CASE PLUS
-Install [Safe Shutdown and Safe Reset](https://github.com/RetroFlag/retroflag-picase) script for [retroflag)(http://retroflag.com/) case: 
+Install [Safe Shutdown and Safe Reset](https://github.com/RetroFlag/retroflag-picase) script for [retroflag](http://retroflag.com/) case: 
 ```
 wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/install.sh" | sudo bash
 ```
