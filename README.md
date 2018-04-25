@@ -62,8 +62,6 @@ emulationstation
 Downgrade pi-bluetooth from 0.1.1 back to version 0.1.0
 ```
 wget http://archive.raspberrypi.org/debian/pool/main/p/pi-bluetooth/pi-bluetooth_0.1.0_armhf.deb
-```
-```
 sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
 ```
 ## Overlays
@@ -73,9 +71,6 @@ cd
 git clone --depth 1 https://github.com/meleu/rpie-art
 cd rpie-art
 ./rpie-art.sh
-```
-```
-sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
 ```
 ## Controller
 Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
