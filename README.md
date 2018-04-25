@@ -15,8 +15,8 @@ Hardware | Shop | Price
 Raspberry Pi 3 Model B+|[Amazon](https://amzn.to/2HsguzL)|EUR 37,90
 Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://amzn.to/2HYCjE1)|EUR 9,29
 SanDisk Ultra 64GB microSDXC (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://amzn.to/2Hr2WV1)|EUR 22,49
-Retroflag NESPi CASE+ (NESPi Case PLUS can have SAFE SHUTDOWN and SAFE RESET functions) |[Amazon](https://amzn.to/2HYC63H)|EUR 26,99
-8Bitdo N30 Pro Wireless Gamepad Controller|[Amazon](https://amzn.to/2HsAsGa)|EUR 34,40
+[Retroflag](http://retroflag.com/) NESPi CASE+ (NESPi Case PLUS can have SAFE SHUTDOWN and SAFE RESET functions) |[Amazon](https://amzn.to/2HYC63H)|EUR 26,99
+[8Bitdo](http://www.8bitdo.com/#Products) [N30 Pro](http://www.8bitdo.com/n30pro-f30pro/) Wireless Gamepad Controller|[Amazon](https://amzn.to/2HsAsGa)|EUR 34,40
 HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://amzn.to/2HqWU2p)|EUR 7,99
 **Total**|Daily price|**EUR ~140,00**
 
