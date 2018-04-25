@@ -66,6 +66,17 @@ wget http://archive.raspberrypi.org/debian/pool/main/p/pi-bluetooth/pi-bluetooth
 ```
 sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
 ```
+## Overlays
+Install Arcade game overlays created for Lr-Mame2003 from UDb23 (latest version with correct aspect ratio) and 1080p Display.
+```
+cd
+git clone --depth 1 https://github.com/meleu/rpie-art
+cd rpie-art
+./rpie-art.sh
+```
+```
+sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
+```
 ## Controller
 Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
 
@@ -118,7 +129,7 @@ The following roms are used in the custom build
 
 Folder|Emulator|Options|Games
 ---|---|---|---:
-atari2600|Atari 2600||607
+atari2600|Atari 2600|Config Editor use Analog Stick|607
 atari7800|Atari 7800|Europe Set|55|
 atarilynx|Lynx||76|
 daphne|Daphne|Install optional package 'daphne'||
