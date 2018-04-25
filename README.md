@@ -73,7 +73,7 @@ cd rpie-art
 ./rpie-art.sh
 ```
 ## Controller
-Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/).
+Add and configure 8bitdo bluetooth controller as described [here](https://retropie.org.uk/docs/8Bitdo-Controller/). Also make sure, that you are using the latest [Firmware v4.10](http://download.8bitdo.com/Firmware/Controller/N30pro+F30pro/N30pro+F30pro_Firmware_V4.10.zip) to be able to disable hack.
 
  1. Run retropie-setup script (see SSH)
  2. Choose the "Configuration / Tools" menu choice
