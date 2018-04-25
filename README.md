@@ -21,7 +21,7 @@ HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.a
 **Total**||**EUR 135,21**
 
 # Install
-## Using SSH
+## Enable SSH
 **Note**: Starting with RetroPie 4.2, in order to keep the default image secure SSH is disabled by default. Press F4 to leave Emulation Station Menu to console. Re-enable SSH in raspi-config:
 ```
 sudo raspi-config
