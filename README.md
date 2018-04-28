@@ -10,7 +10,7 @@ This doc describes the setup tasks for my custom [RetroPie 4.4](https://retropie
 This version is prebuilt for the following hardware spec:
 (You can save extra costs by using cheaper case and cable based controller).
 
-Hardware | Shop | Price
+Hardware | Shop :de: | Price
 -------- | :----: | -----:
 Raspberry Pi 3 Model B+|[Amazon](https://www.amazon.de/dp/B07BDR5PDW/?coliid=I1V8JD1IG8PU09&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 37,90
 Heat sink for Raspberry Pi 3|[Amazon](https://www.amazon.de/dp/B01CP4JRPW/?coliid=I1HH1ERRNJVIW2&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 6,90
