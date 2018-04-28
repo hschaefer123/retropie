@@ -3,7 +3,7 @@ Welcome to my custom [RetroPie](https://retropie.org.uk/) build using a lot of c
 ### What is RetroPie?
 > [RetroPie](https://retropie.org.uk/) allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, EmulationStation, RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up. For power users it also provides a large variety of configuration tools to customise the system as you want.
 ## Prerequisites
-This version is prebuilt to be used with the following hardware specification:
+This version is prebuilt to be used with the following hardware specification:<br>
 (You can save extra costs by using a cheaper case and a cable based controller).
 
 Hardware | Shop | Price
