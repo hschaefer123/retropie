@@ -121,7 +121,7 @@ wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/i
 	 - Other Settings
 		 - Use OMX Player (HW Accelerated) -> ON
 
-## Transferring Roms
+## Transferring Roms :space_invader:
 The following roms are used in the custom build
 
 Folder|Emulator|Options|Games
