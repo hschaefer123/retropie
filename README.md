@@ -19,7 +19,7 @@ SanDisk Ultra 64GB microSDXC (see [compatible](https://elinux.org/RPi_SD_cards) 
 [Retroflag](http://retroflag.com/) NESPi CASE+ (NESPi Case PLUS can have SAFE SHUTDOWN and SAFE RESET functions) |[Amazon](https://www.amazon.de/dp/B07CG4TR2P/?coliid=IAULN9J8Y04WQ&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 26,99
 [8Bitdo N30 Pro](http://www.8bitdo.com/n30pro-f30pro/) Wireless Gamepad Controller|[Amazon](https://www.amazon.de/dp/B013B61SCS/?coliid=I1UMG7SWQKD1OH&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 34,40
 HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.amazon.de/dp/B014I8SSD0/?coliid=I2N0A32S168KF9&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 7,99
-**Total**|Daily price|**EUR ~140,00**
+**Total**|Daily price|**EUR ~150,00**
 
 # Install
 ## Enable SSH
