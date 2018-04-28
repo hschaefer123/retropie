@@ -13,11 +13,12 @@ This version is prebuilt for the following hardware spec:
 Hardware | Shop | Price
 -------- | :----: | -----:
 Raspberry Pi 3 Model B+|[Amazon](https://www.amazon.de/dp/B07BDR5PDW/?coliid=I1V8JD1IG8PU09&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 37,90
+Heat sink for Raspberry Pi 3|[Amazon](https://www.amazon.de/dp/B01CP4JRPW/?coliid=I1HH1ERRNJVIW2&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 6,90
 Rydges EU 5V 3A Micro USB Stecker Netzteil|[Amazon](https://www.amazon.de/dp/B01E75SB2C/?coliid=I33IZFZ4VJGG39&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 9,29
 SanDisk Ultra 64GB microSDXC (see [compatible](https://elinux.org/RPi_SD_cards) cards)|[Amazon](https://www.amazon.de/dp/B073SB2L3C/?coliid=I25R2PLO9M1NJ3&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 22,49
 [Retroflag](http://retroflag.com/) NESPi CASE+ (NESPi Case PLUS can have SAFE SHUTDOWN and SAFE RESET functions) |[Amazon](https://www.amazon.de/dp/B07CG4TR2P/?coliid=IAULN9J8Y04WQ&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 26,99
-[8Bitdo N30 Pro](http://www.8bitdo.com/n30pro-f30pro/) Wireless Gamepad Controller|[Amazon](https://amzn.to/2HsAsGa)|EUR 34,40
-HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.amazon.de/dp/B013B61SCS/?coliid=I1UMG7SWQKD1OH&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 7,99
+[8Bitdo N30 Pro](http://www.8bitdo.com/n30pro-f30pro/) Wireless Gamepad Controller|[Amazon](https://www.amazon.de/dp/B013B61SCS/?coliid=I1UMG7SWQKD1OH&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 34,40
+HDMI cable or 4 Pole RCA to 3.5mm Cable (HDMI works best)|[Amazon](https://www.amazon.de/dp/B014I8SSD0/?coliid=I2N0A32S168KF9&colid=DSIE50YYL8VQ&psc=0&ref_=lv_ov_lig_dp_it)|EUR 7,99
 **Total**|Daily price|**EUR ~140,00**
 
 # Install
