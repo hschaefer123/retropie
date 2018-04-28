@@ -56,7 +56,7 @@ sudo /home/pi/RetroPie-Setup/retropie_setup.sh
 emulationstation
 ```
 ## Bluetooth Downgrade
-Downgrade pi-bluetooth from 0.1.1 back to version 0.1.0
+RetroPie currently has issues using Bluetooth Version 1.1, therefore a downgrade for pi-bluetooth from 0.1.1 back to version 0.1.0 is nessesary!
 ```
 wget http://archive.raspberrypi.org/debian/pool/main/p/pi-bluetooth/pi-bluetooth_0.1.0_armhf.deb
 sudo dpkg -i pi-bluetooth_0.1.0_armhf.deb
